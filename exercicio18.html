@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nums = [];
+        let form1;
+        let form2;
+
+        nums.push(window.prompt("Informe o primeiro numero"), 
+        window.prompt("Informe o segundo numero"), 
+        window.prompt("Informe o terceiro numero"));
+
+        form1 = (parseInt(nums[0]) + parseInt(nums[1]))**2;
+        form2 = (parseInt(nums[1]) + parseInt(nums[2]))**2;
+
+        console.log("O resultado é...: " + (parseInt(form1) + parseInt(form2))/2);
+    </script>
+    
+</body>
+</html>

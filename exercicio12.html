@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 12</title>
+</head>
+<body>
+    <script>
+        let pos1 = [];
+        let pos2 = [];
+        let dis;
+
+        pos1.push(window.prompt("Insira o valor de X1"));
+        pos1.push(window.prompt("Insira o valor de Y1"));
+
+        pos2.push(window.prompt("Insira o valor de X2"));
+        pos2.push(window.prompt("Insira o valor de Y2"));
+
+        dis = Math.sqrt((pos1[0]-pos2[0])**2 + (pos1[1]-pos2[1])**2);
+        console.log("A distância entre os pontos é...: " + dis.toFixed(2));
+    </script>
+    
+</body>
+</html>
